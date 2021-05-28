@@ -19,7 +19,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   </head>
   <body>
-    <nav class=" sticky-top navbar navbar-expand-lg">
+    <nav class=" fixed-top navbar navbar-expand-lg py-0">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,43 +36,61 @@
     </nav>
 
     <main class="container-fluid px-0">
-      <section>
+      <section class="row d-flex align-items-center">
+        <div class="col-lg-6 text-center d-none d-lg-block">
+        <h1>museum<span class="slash">/</span>of<span class="slash">/</span>candy</h1>
+        <h1>museum<span class="slash">/</span>of<span class="slash">/</span>candy</h1>
+        <h1>museum<span class="slash">/</span>of<span class="slash">/</span>candy</h1>
+        <h1>museum<span class="slash">/</span>of<span class="slash">/</span>candy</h1>
+        <h1>museum<span class="slash">/</span>of<span class="slash">/</span>candy</h1>
+        <h1>museum<span class="slash">/</span>of<span class="slash">/</span>candy</h1>
+        </div>
+        <div class="col-lg-6">
         <img src="../assets/img/hand2.png" class="img-fluid" alt="...">
-      </section>
-      <section class="text-center row d-flex justify-content-center align-items-center">
-        <div class="content col-md">
-        <h2>MUSEUM OF CANDY</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.
-        </p>
-      </div>
-      <div class="col-md">
-        <img src="../assets/img/milk.png" class="img-fluid" alt="...">
-      </div>
-      </section>
-      <section class="text-center row d-flex justify-content-center align-items-center">
-        <div class="content col-md">
-          <h2>MUSEUM OF CANDY</h2>
-          <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.
-         </p>
-        </div>
-        <div class="col-md">
-          <img src="../assets/img/gumball.png" class="img-fluid" alt="...">
-        </div>
-      </section>
-      <section class="text-center row d-flex justify-content-center align-items-center">
-        <div class="content col-md">
-        <h2>MUSEUM OF CANDY</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.
-        </p>
-      </div>
-      <div class="col-md">
-      <img src="../assets/img/sprinkles.png" class="img-fluid" alt="...">
-      </div>
+       </div>
       </section>
 
+      <section class="container-fluid px-0">
+      </div>
+      <div class="row content">
+        <div class="col-md-6 order-2 order-md-1 px-0">
+          <img src="../assets/img/milk.png" class="img-fluid" alt="...">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2 align-items-start flex-column justify-content-center">
+          <h2>MUSEUM OF CANDY</h2>
+          <img src="../assets/img/lolli_icon.png" class="img-fluid d-none d-lg-inline" alt="...">
+          <p class="m-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.
+          </p>
+        </div>
+      </div>
+      <div class="row content">
+        <div class="col-md-6 order-2 order-md-2  px-0">
+          <img src="../assets/img/gumball.png" class="img-fluid" alt="...">
+        </div>
+        <div class="col-md-6 text-center order-md-1 align-items-start flex-column justify-content-center">
+          <h2>MUSEUM OF CANDY</h2>
+          <img src="../assets/img/lolli_icon.png" class="img-fluid d-none d-lg-inline" alt="...">
+          <p class="m-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.
+          </p>
+        </div>
+      </div>
+      <div class="row content">
+        <div class="col-md-6 order-2 px-0">
+          <img src="../assets/img/sprinkles.png" class="img-fluid" alt="...">
+        </div>
+        <div class="col-md-6 text-center order-md-2 align-items-start flex-column justify-content-center">
+          <h2>MUSEUM OF CANDY</h2>
+          <img src="../assets/img/lolli_icon.png" class="img-fluid d-none d-lg-inline" alt="...">
+          <p class="m-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae beatae, maiores deserunt in voluptatibus aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur repellat eveniet quidem voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam autem nam ex deserunt debitis eaque ratione! Nobis, quidem assumenda.
+          </p>
+        </div>
+      </div>
+      
+      </section>
+      
     </main>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
